@@ -1,0 +1,84 @@
+.sectionContainer {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 20px 0; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1229px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logoText {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #254A76;
+  margin-left: 10px;
+}
+
+.navLinks {
+  color: #254A76 !important;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navLinks a {
+  color: #254A76;  /* Set text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialIcons {
+  height: 30px;
+}
+
+.button {
+  height: 40px;
+  background-color: #254A76;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1e3a5f;
+}

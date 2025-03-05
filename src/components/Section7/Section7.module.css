@@ -1,0 +1,75 @@
+.section7 {
+  text-align: center;
+  padding: 40px;
+  overflow-y: hidden;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.faqContainer {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Each question container */
+.faqItem {
+  background: #1f3a66;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+  margin-bottom: 10px; /* Ensures equal spacing between questions */
+}
+
+.faqItem:hover {
+  background: #2a4a88;
+}
+
+.toggleIcon {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Answer container (hidden by default) */
+.faqAnswer {
+  font-size: 14px;
+  color: #1f3a66;
+  background: white;
+  padding: 0 15px;
+  box-shadow: 0px 4px 20px rgba(255, 105, 180, 0.5);
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  margin: 0;
+  transform: scaleY(0); /* Shrinks smoothly */
+  transform-origin: top;
+  transition: 
+    transform 0.4s ease-in-out, 
+    opacity 0.4s ease-in-out, 
+    padding 0.3s ease-in-out;
+  border-radius: 0 0 10px 10px;
+}
+
+/* When answer is shown */
+.faqAnswer.show {
+  opacity: 1;
+  max-height: 500px;
+  transform: scaleY(1); /* Expands smoothly */
+  padding: 20px;
+  margin-top: -10px; /* Remove gap between question and answer */
+  margin-bottom: 10px; /* Adds proper spacing after answer */
+}
+
+/* Maintains equal spacing between FAQ items when no answer is expanded */
+.faqItem + .faqItem {
+  margin-top: 10px;
+}

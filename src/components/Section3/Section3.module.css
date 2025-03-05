@@ -1,0 +1,137 @@
+.sectionContainer {
+    text-align: center;
+    padding: 20px 0;
+    overflow-y: hidden;
+}
+  
+.heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+  
+.highlight {
+    color: #3561b5;
+}
+
+.blackText {
+    color: #000; 
+}
+  
+.subText {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Badges Section */
+.badges {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.badgeItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge {
+    width: 20px;
+    height: 20px;
+    background-color: #254A76;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.badgeText {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Upload Section */
+.uploadSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+  
+.uploadBox {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: #fff;
+}
+  
+.fileInput {
+    border: none;
+    outline: none;
+}
+  
+.uploadButton, .aiButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #254A76;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+.uploadButton:hover, .aiButton:hover {
+    background-color: #1e3a5f;
+    opacity: 0.9;
+}
+  
+.orText {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Increased vertical length of preview box + pink shadow effect */
+.previewBox {
+    width: 400px;
+    height: 450px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    background: white;
+    margin-top: 30px;
+    box-shadow: 0px 8px 20px rgba(255, 105, 180, 0.4), 
+                0px 4px 12px rgba(173, 216, 230, 0.3); /* Soft pink & blue shadow */
+}
+  
+.footerText {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.4; /* Adds normal space between lines */
+}
+
+  
+.boldText {
+    font-weight: 700;
+    color: #254A76;
+}
+  
+.docuTech {
+    font-weight: 700;
+    color: #254a76;
+}

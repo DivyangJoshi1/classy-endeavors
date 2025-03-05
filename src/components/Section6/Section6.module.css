@@ -1,0 +1,169 @@
+.section {
+  text-align: center;
+  padding: 50px 20px;
+  overflow-y: hidden;
+}
+
+/* Heading */
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Toggle Switch */
+.toggleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.toggle {
+  display: flex;
+  border: 2px solid #d1d5db;
+  border-radius: 25px;
+  padding: 5px;
+  background: white;
+}
+
+.toggleButton {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.toggleButton.active {
+  background: #254A76;
+  color: white;
+}
+
+/* Pricing Cards */
+.pricingContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card {
+  width: 300px;
+  height: 400px; /* Set a fixed height */
+  padding: 25px;
+  background: #254A76;
+  color: white;
+  border-radius: 0px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push button to the bottom */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInEffect 0.5s forwards;
+}
+
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Hover Effect - Turns White */
+.card:hover {
+  transform: translateY(-5px);
+  background: white;
+  color: black;
+  border-color: #254A76;
+}
+
+/* Prices & Features */
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.note {
+  font-size: 14px;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.features li {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+/* Monthly total text */
+.total {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Button Styles */
+.selectButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s;
+  background: white;
+  color: #254A76;
+  margin-top: auto; /* Push button to bottom */
+}
+
+.selectButton:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+/* Ensure button is visible in default blue cards */
+.card .selectButton {
+  background: white;
+  color: #254A76;
+}
+
+/* Hover Effect - Adds Pink-Blue Shadow Outside */
+.card:hover {
+  transform: translateY(-5px);
+  background: white;
+  color: black;
+  border-color: #254A76;
+  box-shadow: 0px 8px 20px rgba(255, 105, 180, 0.6), 0px 4px 12px rgba(37, 74, 118, 0.8);
+}
+
+/* Ensure Select Button Stays Consistent */
+.card:hover .selectButton {
+  background: #254A76;
+  color: white;
+}

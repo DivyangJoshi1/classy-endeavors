@@ -1,0 +1,18 @@
+.container {
+    background-color: #254A76;
+    width: 100vw; /* Full width of the viewport */
+    height: 49px; /* Fixed height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+  
+.text {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 593px; /* Ensuring text is constrained to 593px */
+}
+
