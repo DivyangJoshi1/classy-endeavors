@@ -5,13 +5,6 @@
   text-align: center;
 }
 
-html, body {
-  overflow-x: hidden !important;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-}
 
 * {
   box-sizing: border-box;
@@ -69,5 +62,6 @@ html, body {
   width: 100vw; /* Ensures it does not exceed the viewport width */
   overflow-x: hidden; /* Prevents horizontal scrolling */
   box-sizing: border-box;
+  background: linear-gradient(to bottom, #e8edf4, #ffffff);
 }
 
