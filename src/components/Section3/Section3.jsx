@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Section3.module.css";
-import uploadIcon from "../../assets/vector.png"; 
-import aiIcon from "../../assets/vector1.png"; 
+import uploadIcon from "../../assets/Vector.png"; 
+import aiIcon from "../../assets/Vector1.png"; 
 
 const Section3 = () => {
   return (
