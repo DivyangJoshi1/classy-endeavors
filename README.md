@@ -1,6 +1,6 @@
-# Classy Endeavors
+# Classy Endeavors Task
 
-Classy Endeavors is a modern web application built using **Vite, React, and CSS Modules**. This project follows a structured approach with multiple sections, each having its own styling and functionality.
+It is a modern web application built using **Vite, React, and CSS Modules**. This project follows a structured approach with multiple sections, each having its own styling and functionality.
 
 ## 🛠 Tech Stack
 - **Frontend:** React, Vite, CSS Modules, Material UI (MUI)
